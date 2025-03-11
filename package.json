@@ -1,0 +1,31 @@
+{
+  "name": "ts-memo-cache",
+  "version": "1.0.0",
+  "description": "A smart memoization and caching utility for TypeScript. It wraps any function with caching capabilities, supports TTL, cache invalidation, and multiple caching strategies.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/compiledbox/ts-memo-cache.git"
+  },
+  "keywords": [
+    "memoization",
+    "caching",
+    "typescript",
+    "performance",
+    "utility"
+  ],
+  "author": "CompiledBox",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.10",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6",
+    "typescript": "^5.8.2"
+  }
+}
