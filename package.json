@@ -6,7 +6,8 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "benchmark": "ts-node __tests__/benchmark.ts"
   },
   "homepage": "https://compiledbox.com",
   "repository": {
