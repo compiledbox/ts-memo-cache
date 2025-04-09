@@ -1,7 +1,7 @@
 {
   "name": "ts-memo-cache",
-  "version": "1.0.2",
-  "description": "A smart memoization and caching utility for TypeScript. It wraps any function with caching capabilities, supports TTL, cache invalidation, and multiple caching strategies.",
+  "version": "1.1.0",
+  "description": "A smart memoization and caching utility for TypeScript with Asynchronous function support. It wraps any function with caching capabilities, supports TTL, cache invalidation, and multiple caching strategies.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
